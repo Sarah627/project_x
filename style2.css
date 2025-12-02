@@ -1,0 +1,35 @@
+:root {
+  --main-blue: #3a6cf4;
+  --main-grey: #d2d1d1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 999;
+  background-color: var(--main-grey);
+}
+
+.logo {
+  margin-left: 20px;
+  color: var(--main-blue);
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--main-blue);
+}
